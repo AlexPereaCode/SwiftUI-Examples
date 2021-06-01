@@ -19,7 +19,7 @@ struct Example {
     let imageName: String
 }
 
-let items = [
+let basics = [
     Example(type: .label, imageName: "textformat"),
     Example(type: .text, imageName: "textformat.abc"),
     Example(type: .button, imageName: "capsule"),
@@ -30,8 +30,8 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                Section(header: Text("Examples")) {
-                    ForEach(items, id: \.type) { item in
+                Section(header: Text("Basics")) {
+                    ForEach(basics, id: \.type) { item in
                         NavigationLink(destination: getDestinationView(type: item.type)) {
                             Label(item.type.rawValue, systemImage: item.imageName)
                         }
