@@ -22,6 +22,19 @@ struct TextView: View {
         Text("This is a text with line spacing")
             .font(.largeTitle)
             .lineSpacing(10)
+        
+        // Multiple Formats
+        VStack {
+            Text("Text 1 green")
+                .font(.largeTitle)
+                .foregroundColor(.green)
+            + Text("Text 2 undeline red")
+                .font(.largeTitle)
+                .foregroundColor(.red)
+                .underline()
+            + Text("Text Bold")
+                .bold()
+        }.padding()
     }
 }
 
