@@ -7,28 +7,53 @@
 
 import SwiftUI
 
+enum ExampleType: String {
+    case label = "Label"
+    case text = "Text"
+    case button = "Button"
+    case image = "Image"
+}
+
 struct Example {
-    let name: String
+    let type: ExampleType
     let imageName: String
 }
 
 let items = [
-    Example(name: "Label", imageName: "textformat"),
-    Example(name: "Text", imageName: "textformat.abc"),
-    Example(name: "Button", imageName: "capsule"),
-    Example(name: "Image", imageName: "photo")
+    Example(type: .label, imageName: "textformat"),
+    Example(type: .text, imageName: "textformat.abc"),
+    Example(type: .button, imageName: "capsule"),
+    Example(type: .image, imageName: "photo")
 ]
 
 struct ContentView: View {
     var body: some View {
-        List {
-            Section(header: Text("Examples")) {
-                ForEach(items, id: \.name) { item in
-                    Label(item.name, systemImage: item.imageName)
+        NavigationView {
+            List {
+                Section(header: Text("Examples")) {
+                    ForEach(items, id: \.type) { item in
+                        NavigationLink(destination: getDestinationView(type: item.type)) {
+                            Label(item.type.rawValue, systemImage: item.imageName)
+                        }
+                    }
                 }
             }
+            .listStyle(GroupedListStyle())
         }
-        .listStyle(InsetGroupedListStyle())
+    }
+}
+
+@ViewBuilder
+func getDestinationView(type: ExampleType) -> some View {
+    switch type {
+    case .label:
+        LabelView()
+    case .text:
+        TextView()
+    case .button:
+        ButtonView()
+    case .image:
+        ImageView()
     }
 }
 
