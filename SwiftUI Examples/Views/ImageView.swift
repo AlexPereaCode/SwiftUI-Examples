@@ -9,7 +9,10 @@ import SwiftUI
 
 struct ImageView: View {
     var body: some View {
-        Text("ImageView")
+        Image("xcode-logo")
+            .resizable()
+            .scaledToFit()
+            .frame(width: 250, height: 250)
     }
 }
 
