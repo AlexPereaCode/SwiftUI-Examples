@@ -15,6 +15,7 @@ enum ExampleType: String {
     case stacks = "Stacks"
     case textField = "TextField"
     case textEditor = "TextEditor"
+    case datePicker = "DatePicker"
 }
 
 struct Example {
@@ -29,7 +30,8 @@ let basics = [
     Example(type: .image, imageName: "photo"),
     Example(type: .stacks, imageName: "square.3.stack.3d"),
     Example(type: .textField, imageName: "textbox"),
-    Example(type: .textEditor, imageName: "contextualmenu.and.cursorarrow")
+    Example(type: .textEditor, imageName: "contextualmenu.and.cursorarrow"),
+    Example(type: .datePicker, imageName: "calendar")
 ]
 
 struct ContentView: View {
@@ -66,6 +68,8 @@ func getDestinationView(type: ExampleType) -> some View {
         TextFieldView()
     case .textEditor:
         TextEditorView()
+    case .datePicker:
+        DatePickerView()
     }
 }
 
