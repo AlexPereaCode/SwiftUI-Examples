@@ -18,6 +18,7 @@
 		FA4FF51F26667F8800D0142A /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4FF51E26667F8800D0142A /* ButtonView.swift */; };
 		FA4FF52126667FB300D0142A /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4FF52026667FB300D0142A /* ImageView.swift */; };
 		FA6C15412668D25A006B3A38 /* StacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C15402668D25A006B3A38 /* StacksView.swift */; };
+		FA6C15432668FEC2006B3A38 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C15422668FEC2006B3A38 /* TextFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		FA4FF51E26667F8800D0142A /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		FA4FF52026667FB300D0142A /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		FA6C15402668D25A006B3A38 /* StacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksView.swift; sourceTree = "<group>"; };
+		FA6C15422668FEC2006B3A38 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				FA4FF51E26667F8800D0142A /* ButtonView.swift */,
 				FA4FF52026667FB300D0142A /* ImageView.swift */,
 				FA6C15402668D25A006B3A38 /* StacksView.swift */,
+				FA6C15422668FEC2006B3A38 /* TextFieldView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			files = (
 				FA4FF52126667FB300D0142A /* ImageView.swift in Sources */,
 				FA14C4662665663C00F8D56E /* ContentView.swift in Sources */,
+				FA6C15432668FEC2006B3A38 /* TextFieldView.swift in Sources */,
 				FA4FF51D26667E8A00D0142A /* TextView.swift in Sources */,
 				FA6C15412668D25A006B3A38 /* StacksView.swift in Sources */,
 				FA4FF51F26667F8800D0142A /* ButtonView.swift in Sources */,
