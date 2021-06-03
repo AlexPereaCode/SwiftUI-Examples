@@ -8,3 +8,4 @@ Examples List:
 - Image
 - Stacks
 - TextField
+- TextEditor
