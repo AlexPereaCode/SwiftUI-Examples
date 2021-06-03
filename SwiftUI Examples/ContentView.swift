@@ -12,6 +12,7 @@ enum ExampleType: String {
     case text = "Text"
     case button = "Button"
     case image = "Image"
+    case stacks = "Stacks"
 }
 
 struct Example {
@@ -23,7 +24,8 @@ let basics = [
     Example(type: .label, imageName: "textformat"),
     Example(type: .text, imageName: "textformat.abc"),
     Example(type: .button, imageName: "capsule"),
-    Example(type: .image, imageName: "photo")
+    Example(type: .image, imageName: "photo"),
+    Example(type: .stacks, imageName: "square.3.stack.3d")
 ]
 
 struct ContentView: View {
@@ -54,6 +56,8 @@ func getDestinationView(type: ExampleType) -> some View {
         ButtonView()
     case .image:
         ImageView()
+    case .stacks:
+        StacksView()
     }
 }
 
