@@ -10,3 +10,4 @@ Examples List:
 - TextField
 - TextEditor
 - DatePicker
+- ColorPicker
