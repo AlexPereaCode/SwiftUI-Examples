@@ -12,3 +12,4 @@ Examples List:
 - DatePicker
 - ColorPicker
 - ProgressView
+- Toggle
