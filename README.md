@@ -11,3 +11,4 @@ Examples List:
 - TextEditor
 - DatePicker
 - ColorPicker
+- ProgressView
