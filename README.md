@@ -13,3 +13,4 @@ Examples List:
 - ColorPicker
 - ProgressView
 - Toggle
+- Stepper
