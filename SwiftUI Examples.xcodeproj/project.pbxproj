@@ -12,6 +12,7 @@
 		FA1025C0266B8D5000B1C2FD /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1025BF266B8D5000B1C2FD /* LinkView.swift */; };
 		FA1025C2266B923300B1C2FD /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1025C1266B923300B1C2FD /* ToggleView.swift */; };
 		FA1025C4266BA07000B1C2FD /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1025C3266BA07000B1C2FD /* StepperView.swift */; };
+		FA1025C6266F6A0A00B1C2FD /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1025C5266F6A0A00B1C2FD /* SliderView.swift */; };
 		FA14C4642665663C00F8D56E /* SwiftUI_ExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA14C4632665663C00F8D56E /* SwiftUI_ExamplesApp.swift */; };
 		FA14C4662665663C00F8D56E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA14C4652665663C00F8D56E /* ContentView.swift */; };
 		FA14C4682665663D00F8D56E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA14C4672665663D00F8D56E /* Assets.xcassets */; };
@@ -51,6 +52,7 @@
 		FA1025BF266B8D5000B1C2FD /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
 		FA1025C1266B923300B1C2FD /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		FA1025C3266BA07000B1C2FD /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		FA1025C5266F6A0A00B1C2FD /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		FA14C4602665663C00F8D56E /* SwiftUI Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA14C4632665663C00F8D56E /* SwiftUI_ExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ExamplesApp.swift; sourceTree = "<group>"; };
 		FA14C4652665663C00F8D56E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				FA1025BF266B8D5000B1C2FD /* LinkView.swift */,
 				FA1025C1266B923300B1C2FD /* ToggleView.swift */,
 				FA1025C3266BA07000B1C2FD /* StepperView.swift */,
+				FA1025C5266F6A0A00B1C2FD /* SliderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				FA1025BE266B853200B1C2FD /* ActivityView.swift in Sources */,
 				FA1025C2266B923300B1C2FD /* ToggleView.swift in Sources */,
 				FA4FF51F26667F8800D0142A /* ButtonView.swift in Sources */,
+				FA1025C6266F6A0A00B1C2FD /* SliderView.swift in Sources */,
 				FA6C15472669474D006B3A38 /* DatePickerView.swift in Sources */,
 				FA1025BC266A422900B1C2FD /* ColorPickerView.swift in Sources */,
 				FA6C154526693DEF006B3A38 /* TextEditorView.swift in Sources */,

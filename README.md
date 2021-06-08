@@ -14,3 +14,4 @@ Examples List:
 - ProgressView
 - Toggle
 - Stepper
+- Slider

@@ -21,6 +21,7 @@ enum ExampleType: String {
     case link = "Link"
     case toogle = "Toogle"
     case stepper = "Stepper"
+    case slider = "SliderView"
 }
 
 struct Example {
@@ -41,7 +42,8 @@ let basics = [
     Example(type: .progressView, imageName: "slowmo"),
     Example(type: .link, imageName: "link"),
     Example(type: .toogle, imageName: "switch.2"),
-    Example(type: .stepper, imageName: "rectangle.split.2x1")
+    Example(type: .stepper, imageName: "rectangle.split.2x1"),
+    Example(type: .slider, imageName: "slider.horizontal.3")
 ]
 
 struct ContentView: View {
@@ -90,6 +92,8 @@ func getDestinationView(type: ExampleType) -> some View {
         ToggleView()
     case .stepper:
         StepperView()
+    case .slider:
+        SliderView()
     }
 }
 
