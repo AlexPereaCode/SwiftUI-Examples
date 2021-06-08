@@ -22,6 +22,7 @@ enum ExampleType: String {
     case toogle = "Toogle"
     case stepper = "Stepper"
     case slider = "SliderView"
+    case grids = "Grids"
 }
 
 struct Example {
@@ -43,7 +44,8 @@ let basics = [
     Example(type: .link, imageName: "link"),
     Example(type: .toogle, imageName: "switch.2"),
     Example(type: .stepper, imageName: "rectangle.split.2x1"),
-    Example(type: .slider, imageName: "slider.horizontal.3")
+    Example(type: .slider, imageName: "slider.horizontal.3"),
+    Example(type: .grids, imageName: "square.grid.3x2")
 ]
 
 struct ContentView: View {
@@ -94,6 +96,8 @@ func getDestinationView(type: ExampleType) -> some View {
         StepperView()
     case .slider:
         SliderView()
+    case .grids:
+        GridsView()
     }
 }
 
