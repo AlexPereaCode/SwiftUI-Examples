@@ -25,6 +25,7 @@ enum ExampleType: String {
     case grids = "Grids"
     case form = "Form"
     case navigation = "Navigation"
+    case tabBarNavigation = "TabBar Navigation"
 }
 
 struct Example {
@@ -49,7 +50,8 @@ let basics = [
     Example(type: .slider, imageName: "slider.horizontal.3"),
     Example(type: .grids, imageName: "square.grid.3x2"),
     Example(type: .form, imageName: "square.fill.text.grid.1x2"),
-    Example(type: .navigation, imageName: "arrowshape.zigzag.forward")
+    Example(type: .navigation, imageName: "arrowshape.zigzag.forward"),
+    Example(type: .tabBarNavigation, imageName: "squares.below.rectangle")
 ]
 
 struct ContentView: View {
@@ -107,6 +109,8 @@ func getDestinationView(type: ExampleType) -> some View {
         FormView()
     case .navigation:
         NavigationsView()
+    case .tabBarNavigation:
+        TabBarNavigationView()
     }
 }
 

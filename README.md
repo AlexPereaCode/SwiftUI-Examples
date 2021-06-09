@@ -18,3 +18,4 @@ Examples List:
 - Lazy Grids
 - Form
 - Navigation
+- TabBar Navigation
