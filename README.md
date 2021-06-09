@@ -16,3 +16,4 @@ Examples List:
 - Stepper
 - Slider
 - Lazy Grids
+- Form
