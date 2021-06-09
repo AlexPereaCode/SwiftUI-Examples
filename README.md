@@ -19,3 +19,4 @@ Examples List:
 - Form
 - Navigation
 - TabBar Navigation
+- TabPage
