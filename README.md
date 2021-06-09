@@ -17,3 +17,4 @@ Examples List:
 - Slider
 - Lazy Grids
 - Form
+- Navigation

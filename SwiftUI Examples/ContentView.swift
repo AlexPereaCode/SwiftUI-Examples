@@ -24,6 +24,7 @@ enum ExampleType: String {
     case slider = "SliderView"
     case grids = "Grids"
     case form = "Form"
+    case navigation = "Navigation"
 }
 
 struct Example {
@@ -47,7 +48,8 @@ let basics = [
     Example(type: .stepper, imageName: "rectangle.split.2x1"),
     Example(type: .slider, imageName: "slider.horizontal.3"),
     Example(type: .grids, imageName: "square.grid.3x2"),
-    Example(type: .form, imageName: "square.fill.text.grid.1x2")
+    Example(type: .form, imageName: "square.fill.text.grid.1x2"),
+    Example(type: .navigation, imageName: "arrowshape.zigzag.forward")
 ]
 
 struct ContentView: View {
@@ -63,6 +65,7 @@ struct ContentView: View {
                 }
             }
             .listStyle(GroupedListStyle())
+            .navigationTitle("SwiftUI Examples")
         }
     }
 }
@@ -102,6 +105,8 @@ func getDestinationView(type: ExampleType) -> some View {
         GridsView()
     case .form:
         FormView()
+    case .navigation:
+        NavigationsView()
     }
 }
 
