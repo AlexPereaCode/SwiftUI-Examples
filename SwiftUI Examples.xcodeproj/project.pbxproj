@@ -18,6 +18,7 @@
 		FA1025CC2670C78B00B1C2FD /* NavigationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1025CB2670C78B00B1C2FD /* NavigationsView.swift */; };
 		FA1025CF2671563000B1C2FD /* TabBarNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1025CE2671563000B1C2FD /* TabBarNavigationView.swift */; };
 		FA1025D126715BD100B1C2FD /* TabPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1025D026715BD100B1C2FD /* TabPageView.swift */; };
+		FA1025D32672333800B1C2FD /* FullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1025D22672333800B1C2FD /* FullScreenView.swift */; };
 		FA14C4642665663C00F8D56E /* SwiftUI_ExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA14C4632665663C00F8D56E /* SwiftUI_ExamplesApp.swift */; };
 		FA14C4662665663C00F8D56E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA14C4652665663C00F8D56E /* ContentView.swift */; };
 		FA14C4682665663D00F8D56E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA14C4672665663D00F8D56E /* Assets.xcassets */; };
@@ -63,6 +64,7 @@
 		FA1025CB2670C78B00B1C2FD /* NavigationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationsView.swift; sourceTree = "<group>"; };
 		FA1025CE2671563000B1C2FD /* TabBarNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarNavigationView.swift; sourceTree = "<group>"; };
 		FA1025D026715BD100B1C2FD /* TabPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPageView.swift; sourceTree = "<group>"; };
+		FA1025D22672333800B1C2FD /* FullScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenView.swift; sourceTree = "<group>"; };
 		FA14C4602665663C00F8D56E /* SwiftUI Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA14C4632665663C00F8D56E /* SwiftUI_ExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ExamplesApp.swift; sourceTree = "<group>"; };
 		FA14C4652665663C00F8D56E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 				FA1025CB2670C78B00B1C2FD /* NavigationsView.swift */,
 				FA1025CE2671563000B1C2FD /* TabBarNavigationView.swift */,
 				FA1025D026715BD100B1C2FD /* TabPageView.swift */,
+				FA1025D22672333800B1C2FD /* FullScreenView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				FA4FF51F26667F8800D0142A /* ButtonView.swift in Sources */,
 				FA1025C6266F6A0A00B1C2FD /* SliderView.swift in Sources */,
 				FA6C15472669474D006B3A38 /* DatePickerView.swift in Sources */,
+				FA1025D32672333800B1C2FD /* FullScreenView.swift in Sources */,
 				FA1025BC266A422900B1C2FD /* ColorPickerView.swift in Sources */,
 				FA1025CC2670C78B00B1C2FD /* NavigationsView.swift in Sources */,
 				FA1025CF2671563000B1C2FD /* TabBarNavigationView.swift in Sources */,

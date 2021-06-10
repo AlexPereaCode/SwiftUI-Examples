@@ -27,6 +27,7 @@ enum ExampleType: String {
     case navigation = "Navigation"
     case tabBarNavigation = "TabBar Navigation"
     case tabPage = "TabPage"
+    case fullScreen = "FullScreen"
 }
 
 struct Example {
@@ -53,7 +54,8 @@ let basics = [
     Example(type: .form, imageName: "square.fill.text.grid.1x2"),
     Example(type: .navigation, imageName: "arrowshape.zigzag.forward"),
     Example(type: .tabBarNavigation, imageName: "squares.below.rectangle"),
-    Example(type: .tabPage, imageName: "ellipsis.rectangle")
+    Example(type: .tabPage, imageName: "ellipsis.rectangle"),
+    Example(type: .fullScreen, imageName: "rectangle.on.rectangle")
 ]
 
 struct ContentView: View {
@@ -115,6 +117,8 @@ func getDestinationView(type: ExampleType) -> some View {
         TabBarNavigationView()
     case .tabPage:
         TabPageView()
+    case .fullScreen:
+        FullScreenView()
     }
 }
 
