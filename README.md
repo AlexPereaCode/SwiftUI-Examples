@@ -21,3 +21,5 @@ Examples List:
 - TabBar Navigation
 - TabPage
 - Full Screen & Sheet
+- Alert
+- Action Sheet

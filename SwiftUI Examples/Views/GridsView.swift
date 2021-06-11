@@ -32,7 +32,7 @@ struct GridsView: View {
                 ForEach(elements, id: \.self) { element in
                     VStack {
                         Circle()
-                            .frame(height: 20)
+                            .frame(width: 20, height: 20)
                         Text("\(element)")
                     }
                     .padding()
