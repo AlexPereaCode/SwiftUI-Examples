@@ -30,6 +30,7 @@ enum ExampleType: String {
     case fullScreen = "FullScreen"
     case alert = "Alert"
     case actionSheet = "Action Sheet"
+    case contextMenu = "Context Menu"
 }
 
 struct Example {
@@ -59,7 +60,8 @@ let basics = [
     Example(type: .tabPage, imageName: "ellipsis.rectangle"),
     Example(type: .fullScreen, imageName: "rectangle.on.rectangle"),
     Example(type: .alert, imageName: "uiwindow.split.2x1"),
-    Example(type: .actionSheet, imageName: "rectangle.bottomthird.inset.fill")
+    Example(type: .actionSheet, imageName: "rectangle.bottomthird.inset.fill"),
+    Example(type: .contextMenu, imageName: "filemenu.and.selection")
 ]
 
 struct ContentView: View {
@@ -127,6 +129,8 @@ func getDestinationView(type: ExampleType) -> some View {
         AlertView()
     case .actionSheet:
         ActionSheetView()
+    case .contextMenu:
+        ContextMenuView()
     }
 }
 
