@@ -24,3 +24,5 @@ Examples List:
 - Alert
 - Action Sheet
 - Context Menu
+- Tap Gesture
+- Drag Gesture

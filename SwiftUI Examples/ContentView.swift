@@ -31,6 +31,8 @@ enum ExampleType: String {
     case alert = "Alert"
     case actionSheet = "Action Sheet"
     case contextMenu = "Context Menu"
+    case tapGesture = "Tap Gesture"
+    case dragGesture = "Drag Gesture"
 }
 
 struct Example {
@@ -61,7 +63,9 @@ let basics = [
     Example(type: .fullScreen, imageName: "rectangle.on.rectangle"),
     Example(type: .alert, imageName: "uiwindow.split.2x1"),
     Example(type: .actionSheet, imageName: "rectangle.bottomthird.inset.fill"),
-    Example(type: .contextMenu, imageName: "filemenu.and.selection")
+    Example(type: .contextMenu, imageName: "filemenu.and.selection"),
+    Example(type: .tapGesture, imageName: "hand.tap"),
+    Example(type: .dragGesture, imageName: "hand.draw")
 ]
 
 struct ContentView: View {
@@ -131,6 +135,10 @@ func getDestinationView(type: ExampleType) -> some View {
         ActionSheetView()
     case .contextMenu:
         ContextMenuView()
+    case .tapGesture:
+        TapGestureView()
+    case .dragGesture:
+        DragGestureView()
     }
 }
 

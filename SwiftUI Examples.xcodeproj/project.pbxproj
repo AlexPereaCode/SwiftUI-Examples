@@ -36,6 +36,8 @@
 		FADCEC2226723EF100E68567 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCEC2126723EF100E68567 /* AlertView.swift */; };
 		FADCEC242672803100E68567 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCEC232672803100E68567 /* ActionSheetView.swift */; };
 		FADCEC262673742400E68567 /* ContextMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCEC252673742400E68567 /* ContextMenuView.swift */; };
+		FADCEC2826737A1600E68567 /* TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCEC2726737A1500E68567 /* TapGestureView.swift */; };
+		FADCEC2A2673AADC00E68567 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCEC292673AADC00E68567 /* DragGestureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +93,8 @@
 		FADCEC2126723EF100E68567 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		FADCEC232672803100E68567 /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
 		FADCEC252673742400E68567 /* ContextMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuView.swift; sourceTree = "<group>"; };
+		FADCEC2726737A1500E68567 /* TapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureView.swift; sourceTree = "<group>"; };
+		FADCEC292673AADC00E68567 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +207,8 @@
 				FADCEC2126723EF100E68567 /* AlertView.swift */,
 				FADCEC232672803100E68567 /* ActionSheetView.swift */,
 				FADCEC252673742400E68567 /* ContextMenuView.swift */,
+				FADCEC2726737A1500E68567 /* TapGestureView.swift */,
+				FADCEC292673AADC00E68567 /* DragGestureView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -352,6 +358,7 @@
 				FA6C15472669474D006B3A38 /* DatePickerView.swift in Sources */,
 				FA1025D32672333800B1C2FD /* FullScreenView.swift in Sources */,
 				FA1025BC266A422900B1C2FD /* ColorPickerView.swift in Sources */,
+				FADCEC2A2673AADC00E68567 /* DragGestureView.swift in Sources */,
 				FA1025CC2670C78B00B1C2FD /* NavigationsView.swift in Sources */,
 				FA1025CF2671563000B1C2FD /* TabBarNavigationView.swift in Sources */,
 				FA6C154526693DEF006B3A38 /* TextEditorView.swift in Sources */,
@@ -360,6 +367,7 @@
 				FADCEC262673742400E68567 /* ContextMenuView.swift in Sources */,
 				FA14C4642665663C00F8D56E /* SwiftUI_ExamplesApp.swift in Sources */,
 				FA1025C8266F700E00B1C2FD /* GridsView.swift in Sources */,
+				FADCEC2826737A1600E68567 /* TapGestureView.swift in Sources */,
 				FA4FF51B26667D5100D0142A /* LabelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
