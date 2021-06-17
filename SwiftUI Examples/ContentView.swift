@@ -8,15 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
-    
-    let factoryViews = ExampleFactoryViews()
-    
+        
     var body: some View {
         NavigationView {
             List {
                 Section(header: Text("Basics")) {
                     ForEach(ExamplesData.getBasicExamples(), id: \.type) { item in
-                        NavigationLink(destination: factoryViews.getDestinationView(type: item.type)) {
+                        NavigationLink(destination: ExampleFactoryViews().getDestinationView(type: item.type)) {
                             Label(item.type.rawValue, systemImage: item.imageName)
                         }
                     }
