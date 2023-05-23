@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CA3D6292A1D5E0000F49633 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA3D6282A1D5E0000F49633 /* MainView.swift */; };
+		5CA3D62B2A1D5FD900F49633 /* IntExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA3D62A2A1D5FD900F49633 /* IntExamples.swift */; };
 		FA1025BC266A422900B1C2FD /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1025BB266A422900B1C2FD /* ColorPickerView.swift */; };
 		FA1025BE266B853200B1C2FD /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1025BD266B853200B1C2FD /* ActivityView.swift */; };
 		FA1025C0266B8D5000B1C2FD /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1025BF266B8D5000B1C2FD /* LinkView.swift */; };
@@ -62,6 +64,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5CA3D6282A1D5E0000F49633 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5CA3D62A2A1D5FD900F49633 /* IntExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExamples.swift; sourceTree = "<group>"; };
 		FA1025BB266A422900B1C2FD /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 		FA1025BD266B853200B1C2FD /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		FA1025BF266B8D5000B1C2FD /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
@@ -130,6 +134,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CA3D6272A1D5DB300F49633 /* Old Code */ = {
+			isa = PBXGroup;
+			children = (
+				FA14C4652665663C00F8D56E /* ContentView.swift */,
+				FA4FF5192666543600D0142A /* Views */,
+				FAA8E774267B591A004D894B /* Examples */,
+			);
+			path = "Old Code";
+			sourceTree = "<group>";
+		};
 		FA14C4572665663C00F8D56E = {
 			isa = PBXGroup;
 			children = (
@@ -153,12 +167,12 @@
 		FA14C4622665663C00F8D56E /* SwiftUI Examples */ = {
 			isa = PBXGroup;
 			children = (
-				FAA8E774267B591A004D894B /* Examples */,
-				FA4FF5192666543600D0142A /* Views */,
 				FA14C4632665663C00F8D56E /* SwiftUI_ExamplesApp.swift */,
-				FA14C4652665663C00F8D56E /* ContentView.swift */,
+				5CA3D6282A1D5E0000F49633 /* MainView.swift */,
+				5CA3D62A2A1D5FD900F49633 /* IntExamples.swift */,
 				FA14C4672665663D00F8D56E /* Assets.xcassets */,
 				FA14C46C2665663D00F8D56E /* Info.plist */,
+				5CA3D6272A1D5DB300F49633 /* Old Code */,
 				FA14C4692665663D00F8D56E /* Preview Content */,
 			);
 			path = "SwiftUI Examples";
@@ -364,6 +378,7 @@
 			files = (
 				FAA8E778267B5961004D894B /* Example.swift in Sources */,
 				FA4FF52126667FB300D0142A /* ImageView.swift in Sources */,
+				5CA3D62B2A1D5FD900F49633 /* IntExamples.swift in Sources */,
 				FA1025C4266BA07000B1C2FD /* StepperView.swift in Sources */,
 				FA14C4662665663C00F8D56E /* ContentView.swift in Sources */,
 				FA6C15432668FEC2006B3A38 /* TextFieldView.swift in Sources */,
@@ -371,6 +386,7 @@
 				FA1025D126715BD100B1C2FD /* TabPageView.swift in Sources */,
 				FA6C15412668D25A006B3A38 /* StacksView.swift in Sources */,
 				FAA8E77A267B598C004D894B /* ExamplesData.swift in Sources */,
+				5CA3D6292A1D5E0000F49633 /* MainView.swift in Sources */,
 				FA1025CA2670AF1A00B1C2FD /* FormView.swift in Sources */,
 				FA1025BE266B853200B1C2FD /* ActivityView.swift in Sources */,
 				FA1025C2266B923300B1C2FD /* ToggleView.swift in Sources */,
